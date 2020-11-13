@@ -1,0 +1,15 @@
+specificParent: specificParent.source.yaml
+relativeNode: controller
+relativePath: controller
+specificList:
+  - name: DemoController
+    template: Controller.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+  - name: Demo1Controller
+    template: Controller.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+

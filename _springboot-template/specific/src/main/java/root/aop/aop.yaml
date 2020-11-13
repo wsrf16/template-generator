@@ -1,0 +1,35 @@
+
+#tableInfoList:
+#  - { name: name111}
+specificParent: specificParent.source.yaml
+relativeNode: aop
+relativePath: aop
+specificList:
+  - name: CustomExceptionAdvice
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+
+
+  - name: CustomHandlerInterceptor
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+
+
+  - name: CustomWebConfigurer
+    format: java
+    template: CustomWebConfigurer.ftl
+    className: CustomWebConfigurer
+    fileName: ${className}.${format}
+
+
+  - name: CustomWebLogAspect
+    format: java
+    template: CustomWebLogAspect.ftl
+    className: CustomWebLogAspect
+    fileName: ${className}.${format}
+
+

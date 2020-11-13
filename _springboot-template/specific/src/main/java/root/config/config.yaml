@@ -1,0 +1,40 @@
+specificParent: specificParent.source.yaml
+relativeNode: config
+relativePath: config
+specificList:
+  - name: Swagger2Config
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+
+
+  - name: ApplicationConfig
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    relativeNode: config.root
+    relativePath: config/root
+  - name: BusinessConfig
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    relativeNode: config.root.children
+    relativePath: config/root/children
+  - name: LauncherConfig
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    relativeNode: config.root.children
+    relativePath: config/root/children
+  - name: UserIDAuditorBean
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    relativeNode: config.db
+    relativePath: config/db
+

@@ -1,0 +1,10 @@
+specificParent: specificParent.source.yaml
+relativeNode:
+relativePath:
+specificList:
+  - name: SampleApplication
+    template: JavaApplication.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    targetLocation:

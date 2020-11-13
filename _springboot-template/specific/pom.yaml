@@ -1,0 +1,18 @@
+specificParent: specificParent.yaml
+targetLocation: _sample
+relativeNode: pom
+relativePath:
+specificList:
+  - name: pom
+    format: xml
+    template: pom.ftl
+    className: pom
+    fileName: ${className}.${format}
+    parentGroupId: com.unicom.software
+    parentArtifactId: spring-boot-starter-top
+    parentVersion: 1.0.0
+    groupId: com.unicom.software
+    artifactId: _sample
+    version: 1.0.0
+    moduleName: api-core
+    finalName: unicom-origin

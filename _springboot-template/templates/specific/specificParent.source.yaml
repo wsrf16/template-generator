@@ -1,0 +1,6 @@
+language: java
+framework: springboot
+basePackage: com.unicom.software.origin.api
+#sourceLocation: _springboot-template/specific/src/main/java/package
+targetLocation: _sample/src/main/java/com/unicom/software/origin/api
+

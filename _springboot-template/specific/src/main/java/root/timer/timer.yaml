@@ -1,0 +1,9 @@
+specificParent: specificParent.source.yaml
+relativeNode: timer
+relativePath: timer
+specificList:
+  - name: AutoRunner
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}

@@ -1,0 +1,21 @@
+specificParent: specificParent.yaml
+relativeNode:
+relativePath:
+targetLocation: _sample/src/main/resources
+specificList:
+  - name: application
+    format: yaml
+    template: application.yml.ftl
+    className:
+    fileName: ${name}.${format}
+    appId: unicom-origin
+  - name: banner
+    format: txt
+    template: banner.txt.ftl
+    className:
+    fileName: ${name}.${format}
+  - name: logback
+    format: xml
+    template: logback.xml.ftl
+    className:
+    fileName: ${name}.${format}

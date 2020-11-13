@@ -1,0 +1,16 @@
+specificParent: specificParent.source.yaml
+relativeNode: utils
+relativePath: utils
+specificList:
+  - name: AppLogHubFactory
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    targetLocation:
+  - name: BizStatusEnum
+    template: ${name}.ftl
+    format: java
+    className: ${name}
+    fileName: ${name}.${format}
+    targetLocation:
